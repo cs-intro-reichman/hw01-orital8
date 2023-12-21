@@ -3,7 +3,7 @@
  * This is known as the Triangle Inequality Theorem. 
  * Write a program that tests if three given integers form a triangle.
  */ 
-public classTriangle {
+public class Triangle {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
