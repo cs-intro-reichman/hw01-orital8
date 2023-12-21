@@ -1,15 +1,16 @@
 /*
- * Write a program that gets a quantity of cents as a command-line argument.
- * The program prints how to represent this quantity using as many quarters as possible, plus the remainder in cents.
+ * Solves linear equations of the form a⋅x + b = c.
+ * The program gets a, b, and c as command-line arguments,
+ * computes x, and prints the result.
+ * Treats the three arguments as well as the computed value as double values
  */
-public class Coins {
-	public static void main(String[] args) {
-		int a = Integer.parseInt(args[0]); //number of cents
-		int q = a/25; // number of quarters
-		
-		
-		System.out.println("Use "+q+" quarters "+"and "+(a-q*25)+ " cents");
-		
-		
-	}
+public class LinearEq {
+public static void main(String[] args) {
+	double a = Double.parseDouble(args[0]);
+	double b = Double.parseDouble(args[1]);
+	double c = Double.parseDouble(args[2]);
+	double x = (c-b)/a ;
+	System.out.println(a + " * x"+" + "+ b + " = " + c+ "\n"+"x = "+x);
+	
+}
 }
