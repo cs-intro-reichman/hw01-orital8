@@ -12,13 +12,13 @@ public class GenThree {
 		int randomNumber1 = (int) (Math.random() * (mx - mn + 1)) + mn;
 		int randomNumber2 = (int) (Math.random() * (mx - mn + 1)) + mn;
 		int randomNumber3 = (int) (Math.random() * (mx - mn + 1)) + mn;
-		
-		int random_min= Math.min( Math.min(randomNumber1,randomNumber2),randomNumber3);	
+		int random_min= Math.min(randomNumber1,randomNumber2);
+		int random_min1= Math.min(random_min,randomNumber3);	
 		
 			System.out.println(randomNumber1);
 			System.out.println(randomNumber2);
 			System.out.println(randomNumber3);
-			System.out.println("The minimal generated number was "+random_min);
+			System.out.println("The minimal generated number was "+random_min1);
 		
 	}
 }
