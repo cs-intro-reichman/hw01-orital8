@@ -11,10 +11,10 @@ public class Triangle {
 		if
 		((a+b)>c && (b+c)>a && (c+a)>b)
 			{
-				System.out.println( a +",  "+ b+",  "+c+": true ");
+				System.out.println( a +",  "+ b+",  "+c+": true");
 			}	
 			else 
-				System.out.println( a +",  "+ b+",  "+c+": false ");
+				System.out.println( a +",  "+ b+",  "+c+": false");
 			
 	}
 }
