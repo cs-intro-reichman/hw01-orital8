@@ -10,7 +10,7 @@ public class Triangle {
 		int c = Integer.parseInt(args[2]);
 		boolean fix =((a+b)>c && (b+c)>a && (c+a)>b);
 			{
-				System.out.println( a +",  "+ b+",  "+c+": "+ fix);
+				System.out.println( a +", "+ b+", "+c+": "+ fix);
 			}	
 			
 	}
