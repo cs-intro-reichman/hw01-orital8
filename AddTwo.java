@@ -1,4 +1,4 @@
-*
+/*
  * Adds two given integers and prints the result in a fancy way.
  */
  
